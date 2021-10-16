@@ -1,0 +1,20 @@
+{
+  "name": "playwright_pom",
+  "version": "1.0.0",
+  "description": "This repo contain playwright pom implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest":{
+    "testPathIgnorePatterns":["/tests/"]
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.11.1",
+    "jest": "^27.0.6"
+  }
+}
