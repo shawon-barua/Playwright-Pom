@@ -7,7 +7,7 @@ class BasePage{
      * @param {string} path 
      */
     async navigate(path){
-        await this.page.goto('https://jp.mercari.com/${path}')
+        await this.page.goto('/${path}')
     }
 }
 module.exports = BasePage;
