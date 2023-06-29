@@ -4,7 +4,7 @@ const TimeLine = require('../pages/Timeline.page');
 const ItemDetails = require('../pages/ItemDetails.page');
 
 
-describe('Add New address in personal profile of Mercari Web App', () => {
+describe('Add New address in personal profile of  Web App', () => {
     jest.setTimeout(30000);
     let browser = null;
     let context = null;
