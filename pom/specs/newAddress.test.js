@@ -6,7 +6,7 @@ const AddAddress = require('../pages/AddAddress.page');
 const ShippingAddress = require('../pages/ShippingAddress.page');
 
 
-describe('Add New address in personal profile of Mercari Web App', () => {
+describe('Add New address in personal profile of  Web App', () => {
     jest.setTimeout(30000);
     let browser = null;
     let context = null;
